@@ -101,7 +101,7 @@ const Home = ({navigation, route}) => {
         </View>
       )}
 
-      <User details={details} />
+      {/* <User details={details} /> */}
       <Button
         onPress={() => fetchDetails()}
         title="Learn More"
